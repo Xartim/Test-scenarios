@@ -1,0 +1,35 @@
+Scenario A
+Search word "prowly" on google.com, filtering by content category
+
+Preconditions: Access to web brower and internet
+
+Test case 1. 
+Title: Search word "prowly" on google.com by categry 'All'
+Steps to reproduce:
+1. Go to page google.com in your web browser
+2. Type "prowly" in the search tool field and click button ENTER on your keyboard
+Expected result: 
+1. Search results include links to websides, informations, images and videos
+
+Test case 2. 
+Title: Search word "prowly" on google.com by categry 'Video'
+Steps to reproduce:
+1. Go to page google.com in your web browser
+2. Type "prowly" in the search tool 
+3. On dropdown list click on "prowly"
+4. Under search field click on category 'Video'
+Expected result: 
+1. Category button Video is marked as selected
+2. Search results include videos according to word "prowly".
+
+Test case 3. 
+Title: Search word "prowly" on google.com by categry 'Graphics'
+Steps to reproduce:
+1. Go to page google.com in your web browser
+2. Type "prowly" in the search tool field
+3. Click on the any empty field on the page to hide dropdown list
+4. Click button 'Google Search'
+5. Under search field click on category 'Graphics;
+Expected result: 
+1. Category button Graphics is marked as selected
+2. Search results include images according to word "prowly".
