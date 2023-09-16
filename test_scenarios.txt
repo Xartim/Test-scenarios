@@ -3,10 +3,10 @@ Search word "prowly" on google.com, filtering by content category
 
 Preconditions: 
 1. Access to internet
-2. Browser with selected english language
+2. Browser with selected English language
 
 Test case 1. 
-Title: Search word "prowly" on google.com by categry 'All'
+Title: Search word "prowly" on google.com by category 'All'
 Steps to reproduce:
 1. Go to page google.com in your web browser
 2. Type "prowly" in the search tool field and click button ENTER on your keyboard
@@ -14,7 +14,7 @@ Expected result:
 1. Search results include all categories
 
 Test case 2. 
-Title: Search word "prowly" on google.com by categry 'Video'
+Title: Search word "prowly" on google.com by category 'Video'
 Steps to reproduce:
 1. Go to page google.com in your web browser
 2. Type "prowly" in the search tool 
@@ -25,7 +25,7 @@ Expected result:
 2. Search results include videos according to word "prowly".
 
 Test case 3. 
-Title: Search word "prowly" on google.com by categry 'Graphics'
+Title: Search word "prowly" on google.com by category 'Graphics'
 Steps to reproduce:
 1. Go to page google.com in your web browser
 2. Type "prowly" in the search tool field
@@ -41,7 +41,7 @@ Searching word "prowly" on google.com with filtering by date
 
 Preconditions: 
 1. Access to internet
-2. Browser with selected english language
+2. Browser with selected English language
 
 Test case 1. 
 Title: Search word "prowly" on google.com without filtering by date
@@ -51,7 +51,7 @@ Steps to reproduce:
 3. Click on 'Tools' button
 Expected result: 
 1. 'Whenever' is selected as the filtering by date
-2. Search results are from all date and include all categories.
+2. Search results are from all dates and include all categories.
 
 Test case 2. 
 Title: Search word "prowly" on google.com with results filtering by last 24 hours
