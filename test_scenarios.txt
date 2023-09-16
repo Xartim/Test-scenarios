@@ -1,7 +1,9 @@
 Scenario A
 Search word "prowly" on google.com, filtering by content category
 
-Preconditions: Access to web brower and internet
+Preconditions: 
+1. Access to internet
+2. Browser with selected english language
 
 Test case 1. 
 Title: Search word "prowly" on google.com by categry 'All'
@@ -9,7 +11,7 @@ Steps to reproduce:
 1. Go to page google.com in your web browser
 2. Type "prowly" in the search tool field and click button ENTER on your keyboard
 Expected result: 
-1. Search results include links to websides, informations, images and videos
+1. Search results include all categories
 
 Test case 2. 
 Title: Search word "prowly" on google.com by categry 'Video'
@@ -33,3 +35,49 @@ Steps to reproduce:
 Expected result: 
 1. Category button Graphics is marked as selected
 2. Search results include images according to word "prowly".
+
+Scenario B
+Searching word "prowly" on google.com with filtering by date
+
+Preconditions: 
+1. Access to internet
+2. Browser with selected english language
+
+Test case 1. 
+Title: Search word "prowly" on google.com without filtering by date
+Steps to reproduce:
+1. Go to page google.com in your web browser
+2. Type "prowly" in the search tool field and click button ENTER on your keyboard
+3. Click on 'Tools' button
+Expected result: 
+1. 'Whenever' is selected as the filtering by date
+2. Search results are from all date and include all categories.
+
+Test case 2. 
+Title: Search word "prowly" on google.com with results filtering by last 24 hours
+Steps to reproduce:
+1. Go to page google.com in your web browser
+2. Type "prowly" in the search tool field and click button ENTER on your keyboard
+3. Click on 'Tools' button
+4. Click on 'Whenever'
+5. Select and click on "Last 24 hours" from dropdown list
+Expected result: 
+1. 'Last 24 hours' is selected as the filtering by date
+2. Search results have date stamp value <= 24 hours ago
+ and include all categories.
+
+Test case 3. 
+Title: Search word "prowly" on google.com with results filtering by selected period
+Steps to reproduce:
+1. Go to page google.com in your web browser
+2. Type "prowly" in the search tool field and click button ENTER on your keyboard
+3. Click on 'Tools' button
+4. Click on 'Whenever'
+5. Click on "Date range..." from dropdown list
+6. Click on text field "From" and type "9/1/2023"
+7. Click on text field "Down" and type "9/3/2023"
+8. Click ENTER button on your keyboard
+Expected result: 
+1. Date range 'Sep 1, 2023 – Sep 3, 2023' is selected as the filtering by date
+2. Search results have date stamp value from 'Sep 1, 2023' to 'Sep 3, 2023'
+ and include all categories.
